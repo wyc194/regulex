@@ -1,0 +1,20 @@
+{
+  "name": "regulex_common",
+  "version": "0.1.0",
+  "description": "JavaScript Regular Expression Parser and Visualizer.",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wyc194/regulex.git"
+  },
+  "keywords": [
+    "Regular Expression Visualizer",
+    "RegExp",
+    "Regulex",
+    "Regulex_"
+  ],
+  "author": {
+    "name": "yongchang.wang"
+  },
+  "license": "MIT"
+}
