@@ -32,7 +32,7 @@ npm install regulex_common
 
 ### API
 ```javascript
-import { parse, Kit, Raphael, visualize } from 'regulex'
+import { parse, Kit, Raphael, visualize } from 'regulex_common'
 ```
 
 #### Parse to AST
