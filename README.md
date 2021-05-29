@@ -27,7 +27,7 @@ origin project github: https://github.com/CJex/regulex
 
 ### Install for Node.js, Vue... [ES6 Module方式]
 ```
-npm install regulex_
+npm install regulex_common
 ```
 
 ### API
