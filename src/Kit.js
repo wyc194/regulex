@@ -1,8 +1,7 @@
 var AP=Array.prototype,
   slice=AP.slice,
-  isBrowser=(function () {
-    return this.toString()==="[object Window]";
-  })();
+  global=this||window,
+  isBrowser=global.toString()==="[object Window]";
 
 
 /**

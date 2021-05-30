@@ -105,7 +105,7 @@ function exportConstants() {
     return k+"="+JSON.stringify(Constants[k]);
   }).join(";");
   var Global=(function () {
-    return this;
+    return this || window;
   })();
   Global.eval(code);
 }

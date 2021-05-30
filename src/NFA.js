@@ -58,7 +58,7 @@ An automaton used to recognize triples:{
 */
 function NFA(a) {
   a=a.compact?structure(a):a;
-  var accepts={},i,trans=a.trans,
+  var accepts={},i,n,trans=a.trans,
       // FMap={toState:Function}
       router={/*
         fromState : {
